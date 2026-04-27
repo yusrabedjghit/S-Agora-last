@@ -1,0 +1,16 @@
+{
+  "name": "swapie/admin-api",
+  "description": "Swapie Admin Backend API",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {},
+  "scripts": {
+    "start": "php -S localhost:8000 index.php"
+  }
+}
